@@ -1,7 +1,9 @@
 var connection = require('./connection.js');
 
 var orm = {
-    selectAll: function(){
+    selectAll: function(whatToSelect, table, orderBy){
+        var queryString = 'SELECT' +
+        connection.query
     }
 }
 
